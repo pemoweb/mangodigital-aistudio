@@ -1,0 +1,69 @@
+/* ==========================================================================
+   MANGO DIGITAL — Ajustes Específicos de Responsive Design
+   Breakpoints: Mobile (< 640px), Tablet (640px - 1023px), Desktop (>= 1024px)
+   ========================================================================== */
+
+/* Móvil Pequeño (< 480px) */
+@media (max-width: 479px) {
+  .hero-headline {
+    font-size: 2.15rem;
+    line-height: 1.15;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+  }
+
+  .visual-system-metrics {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .floating-accent-card {
+    position: static;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .solution-banner {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .contact-sidebar, .contact-form-container {
+    padding: 1.5rem 1.25rem;
+  }
+}
+
+/* Tablet (640px a 1023px) */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .hero-headline {
+    font-size: 2.85rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Reducción de movimiento para accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

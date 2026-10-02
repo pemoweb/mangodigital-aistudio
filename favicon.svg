@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="mangoGrad" x1="6" y1="4" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF5500"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="10" y1="12" x2="38" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C2FF"/>
+      <stop offset="100%" stop-color="#0099FF"/>
+    </linearGradient>
+    <linearGradient id="orbitGrad" x1="12" y1="6" x2="40" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0099FF"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <!-- Background subtle rounded tile for app icons & favicon crispness -->
+  <rect width="48" height="48" rx="12" fill="#0A111C"/>
+  
+  <!-- Stylized geometric modern Mango + digital orbit -->
+  <!-- Upper leaf / tech spark -->
+  <path d="M26 8C26 8 35 9 34 18C30 18 26 14 26 8Z" fill="#0099FF" fill-opacity="0.9"/>
+  
+  <!-- Mango main body: clean, aerodynamic, modern tech contour -->
+  <path d="M25 15C17.5 15 12 21 12 28.5C12 36.5 18 41 24.5 41C33.5 41 37 32 37 25C37 19.5 32 15 25 15Z" fill="url(#mangoGrad)"/>
+  
+  <!-- Inner digital nexus facet / connectivity arc (represents web & digital transformation) -->
+  <path d="M21 21C27 21 31 25.5 31 30.5C31 34.5 28.5 37 25 37C21 37 18 33.5 18 29C18 24.5 19.5 21 21 21Z" fill="#0A111C" fill-opacity="0.25"/>
+  <circle cx="27" cy="27" r="3" fill="#FFFFFF"/>
+  <path d="M27 27L33 21" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="33" cy="21" r="2" fill="#00C2FF"/>
+</svg>
