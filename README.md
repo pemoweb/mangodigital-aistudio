@@ -210,6 +210,95 @@ La identidad gráfica busca transmitir:
 * [ ] Página de Desarrollo Web
 * [ ] Página de SEO
 * [ ] Página de Marketing Digital
-* [ ] Página de Hosti
-rtyrty rty rrtyrr
-rt rtrtrty rtyr
+* [ ] Página de Hosting
+* [ ] Página de Mantenimiento
+* [ ] Página de Contacto
+* [ ] Página de Presupuesto
+
+### Fase 3 — Herramientas
+
+* [ ] Calculadora de presupuesto
+* [ ] Formulario de contacto
+* [ ] Solicitud de presupuesto
+* [ ] Validaciones frontend
+* [ ] Integración de correo
+
+### Fase 4 — Laravel
+
+* [ ] Migración a Laravel
+* [ ] Base de datos MySQL
+* [ ] Panel administrativo
+* [ ] Gestión de clientes
+* [ ] Gestión de presupuestos
+* [ ] Gestión de solicitudes
+* [ ] Gestión de servicios
+
+### Fase 5 — Plataforma Mango Digital
+
+* [ ] Área de clientes
+* [ ] Gestión de proyectos
+* [ ] Facturación
+* [ ] Servicios de hosting
+* [ ] Gestión de dominios
+* [ ] Automatizaciones
+* [ ] Integraciones externas
+
+---
+
+## 💻 Desarrollo local
+
+Para visualizar la versión frontend no se necesita ningún framework ni servidor especial.
+
+Puedes clonar el repositorio:
+
+```bash
+git clone https://github.com/pemoweb/mango-digital.git
+```
+
+Entrar en el proyecto:
+
+```bash
+cd mango-digital
+```
+
+Y abrir `index.html` en el navegador.
+
+Para el desarrollo posterior con Laravel se utilizará el entorno correspondiente de PHP, Composer, MySQL y Node.js.
+
+---
+
+## 📌 Estado del proyecto
+
+**🚧 En desarrollo**
+
+Mango Digital se encuentra actualmente en fase de diseño y desarrollo inicial.
+
+La estructura, funcionalidades, textos, servicios y arquitectura pueden cambiar durante el desarrollo.
+
+---
+
+## 🤝 Contribuciones
+
+Actualmente este repositorio corresponde al desarrollo de Mango Digital.
+
+Las sugerencias, ideas y propuestas de mejora son bienvenidas mediante:
+
+* Issues
+* Pull Requests
+* Comentarios sobre el proyecto
+
+---
+
+## 📄 Licencia
+
+Este proyecto contiene elementos propios de la identidad y desarrollo de Mango Digital.
+
+El código y los recursos gráficos no deben reutilizarse comercialmente sin autorización.
+
+---
+
+## 🥭 Mango Digital
+
+**Diseño web · Desarrollo · SEO · Marketing Digital · Hosting**
+
+> Convertimos ideas en presencia digital.
